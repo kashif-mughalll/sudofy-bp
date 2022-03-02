@@ -1,7 +1,7 @@
 {
   "name": "sudofy-bp",
-  "version": "1.0.0",
-  "description": "oclif example Hello World CLI",
+  "version": "1.0.2",
+  "description": "tool for creating boilerplates",
   "author": "Muhammad Kashif Mughal @kashif-mughalll",
   "bin": {
     "sudofy-bp": "./bin/run"
@@ -9,7 +9,10 @@
   "homepage": "https://github.com/kashif-mughalll/sudofy-bp",
   "license": "MIT",
   "main": "dist/index.js",
-  "repository": "kashif-mughalll/sudofy-bp",
+  "repository": {
+    "url": "https://github.com/kashif-mughalll/sudofy-bp",
+    "type": "git"
+  },
   "files": [
     "/bin",
     "/dist",
@@ -68,7 +71,8 @@
   },
   "bugs": "https://github.com/kashif-mughalll/sudofy-bp/issues",
   "keywords": [
-    "oclif"
+    "Boilerplate",
+    "react"
   ],
   "types": "dist/index.d.ts"
 }

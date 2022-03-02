@@ -1,6 +1,6 @@
 {
   "name": "sudofy-bp",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "oclif example Hello World CLI",
   "author": "Muhammad Kashif Mughal @kashif-mughalll",
   "bin": {
@@ -19,7 +19,8 @@
   "dependencies": {
     "@oclif/core": "^1",
     "@oclif/plugin-help": "^5",
-    "@oclif/plugin-plugins": "^2.0.1"
+    "@oclif/plugin-plugins": "^2.0.1",
+    "loading-cli": "^1.1.0"
   },
   "devDependencies": {
     "@oclif/test": "^2",
